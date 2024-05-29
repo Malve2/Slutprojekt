@@ -1,0 +1,125 @@
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0px 10px 10px -2px rgba(0,0,0,0.56);
+-webkit-box-shadow: 0px 10px 10px -2px rgba(0,0,0,0.56);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position:fixed;
+    width: 100%;
+    align-items: center;
+    height: fit-content;
+    z-index: 99;
+    top: 0px;
+}
+header a#homeLink
+{
+    height: fit-content;
+    margin-right: 8px;
+}
+header a#homeLink i
+{
+    font-size: 3rem;
+    color: #ffb6c1;
+    padding: 5px;
+    border-radius: 5px;
+}
+header a#homeLink i:hover
+{
+    background-color: #9448f4;
+}
+header a#homeLink.hidden
+{
+    display: none;
+}
+ul.dropdown
+{
+    margin: 0;
+    padding: 10px;
+}
+i#dropdownBars.fa.fa-bars
+{
+    font-size: 3rem;
+    background-color: blueviolet;
+    color: #ffb6c1;
+    padding: 5px;
+    border-radius: 5px;
+}
+i#dropdownBars.fa.fa-bars:hover, header ul.dropdown.active i#dropdownMenuClose.fa.fa-times:hover
+{
+    cursor: pointer;
+    background-color: #9448f4;
+}
+header ul.dropdown i.fa.fa-times
+{
+    display: none;
+}
+header ul.dropdown.active i.fa.fa-times
+{
+    display: inline-block;
+    font-size: 3rem;
+    background-color: blueviolet;
+    color: #ffb6c1;
+    padding: 5px;
+    border-radius: 5px;
+}
+header ul.dropdown.active i.fa.fa-bars
+{
+    display: none;
+}
+ul.dropdown li
+{
+    
+    list-style: none;
+}
+header ul.dropdown li a
+{
+    display: none;
+    background-color: #8a2be2;
+    text-decoration: none;
+    color: #f0ffff;
+    padding: 20px;
+    border: 2px #ffb6c1 solid;
+    border-radius: 20px;
+}
+header ul.dropdown li a h1
+{
+    max-width: fit-content;
+    margin: 0;
+}
+header ul.dropdown li a i
+{
+    margin-left: 20px;
+    font-size: 2rem;
+}
+header ul.dropdown.active li a
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    user-select: none;
+}
+header ul.dropdown.active
+{
+    width: 100vw;
+}
+header ul.dropdown li a:hover
+{
+    background-color: #9448f4;
+    transform: scale(1.03);
+}
+header a#title
+{
+    font-family:'Lobster';
+    user-select: none;
+    font-weight: 100;
+    font-size: 2.2rem;
+    color: #f0ffff;
+    text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+body
+{
+    margin: 0;
+    overflow-x: hidden;
+    background: rgb(80,15,140);
+    background: linear-gradient(200deg, rgba(80,15,140,1) 0%, rgba(109,0,186,1) 95%, rgba(138,43,226,1) 100%); 
+}
+.productContainer
+{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productContainer .product
+{
+    width: 80%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.productContainer .product img
+{
+    width: 100%;
+}
+.product a
+{
+    text-decoration: none;
+    border: 2px #d2ccef solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: #f0ffff;
+}
+.product a:hover
+{
+    background-color: #9448f4;
+    transform: scale(1.1);
+}
