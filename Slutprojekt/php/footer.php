@@ -1,37 +1,45 @@
 <link rel="stylesheet" href="../styles/footerStyle.css">
 
 <footer>
-    <div>
+    <div class="contactLinks">
         <h1>
             Contact
         </h1>
-        <a href="#">Hjälp mig</a>
-        <a href="#">Ofta förekommande frågor</a>
+        <div class="links">
+            <a href="#">Hjälp mig</a>
+            <a href="#">Ofta förekommande frågor</a>
+        </div>
+        
     </div>
-    <div>
+    <div class="aboutLinks">
         <h1>
             Om oss
         </h1>
-        <a href="#">Vår historia</a>
-        <a href="#">Vilka vi är</a>
-        <a href="https://motståndsrörelsen.se/">Vårt älsklingsparti ❤</a>
+        <div class="links">
+            <a href="#">Vår historia</a>
+            <a href="#">Vilka vi är</a>
+            <a href="#">Vår AZCFBGIUP0JÅLÖ¨Ä'</a>
+        </div>
+        
     </div>
-    <div>
+    <div class="appLinks">
         <h1>
             Vår app
         </h1>
-        <a href="#">
-            <img src="../pictures/LidlAppStore.jpg" alt="">
-        </a>
-        <a href="#">
-            <img src="../pictures/LidlGooglePlay.jpg" alt="">
-        </a>
+        <div class="links">
+            <a href="#">
+                <img src="../pictures/LidlAppStore.jpg" alt="">
+            </a>
+            <a href="#">
+                <img src="../pictures/LidlGooglePlay.jpg" alt="">
+            </a>
+        </div>
     </div>
     <div class="mediaLinks">
         <h1>
             Följ oss och ge oss pengar
         </h1>
-        <div>
+        <div class="links">
             <a href="#">
                 <i class="fa fa-facebook-official" aria-hidden="true"></i>
             </a>

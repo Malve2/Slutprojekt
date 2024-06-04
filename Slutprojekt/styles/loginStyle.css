@@ -61,7 +61,8 @@ div.login form input
 div.login form div.checkboxSection input[type="checkbox"]
 {
     transform: scale(1.75);
-    
+    accent-color: pink;
+
 }
 div.login form div.checkboxSection input[type="checkbox"]:hover
 {

@@ -134,3 +134,9 @@ div.showcaseContainer .showcase a:hover
     background-color: #9448f4;
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) 
+{
+    
+    
+}

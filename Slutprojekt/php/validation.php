@@ -1,6 +1,7 @@
 <?php
-$fakePassword = "lasse";
-$fakeUsername = "thomas";
+$fakeUsername = "Alfred";
+$fakePassword = "  ";
+
 if($_POST["username"] == $fakeUsername && $_POST["password"] == $fakePassword)
 {
     
