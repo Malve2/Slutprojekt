@@ -3,7 +3,7 @@
 <footer>
     <div class="contactLinks">
         <h1>
-            Contact
+            Kontakt
         </h1>
         <div class="links">
             <a href="#">Hjälp mig</a>
@@ -18,7 +18,7 @@
         <div class="links">
             <a href="#">Vår historia</a>
             <a href="#">Vilka vi är</a>
-            <a href="#">Vår AZCFBGIUP0JÅLÖ¨Ä'</a>
+            <a href="#">Vår AZCFBGIUP</a>
         </div>
         
     </div>

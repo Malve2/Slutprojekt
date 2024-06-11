@@ -67,7 +67,7 @@
 
         </ul>
 
-        <a id="title" href="index.php">Tofflotek</a>
+        <a id="title" href="index.php">Toffloteket</a>
 
         <a id="homeLink" href="index.php">
             <i class="fa fa-home"></i>

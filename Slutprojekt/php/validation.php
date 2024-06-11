@@ -1,7 +1,6 @@
 <?php
 $fakeUsername = "Alfred";
 $fakePassword = "  ";
-
 if($_POST["username"] == $fakeUsername && $_POST["password"] == $fakePassword)
 {
     
@@ -9,5 +8,9 @@ if($_POST["username"] == $fakeUsername && $_POST["password"] == $fakePassword)
     $_SESSION["loggedIn"] = 1;
     
     header("Location: index.php");
+}
+else
+{
+    header("Location: login.php");
 }
 ?>

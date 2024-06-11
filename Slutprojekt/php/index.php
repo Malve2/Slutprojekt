@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slutprojekt</title>
+    <title>Hemma- Tofflotek</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/svg" href="../pictures/TofflaLogga.png">
     <link rel="stylesheet" href="../styles/indexStyle.css">
@@ -34,25 +34,24 @@
         <div class="showcase">
             <img src="../pictures/ManHoldingGulCroc.png" alt="">
             <h1>Hög Kvalitet!</h1>
-            <p>Lorem ipsum dolor dimbu nimbus, consectetur adipisicing elit. Numquam in, doloremque corporis 
-                 iste aliquam! Itaque fugit voluptas commodi hic!
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, accusamus explicabo
+            cumque omnis nostrum nimbus distinctio sit quaerat aliquam vel?
             </p>
             <a href="#">iaugh</a>
         </div>
         <div class="showcase">
             <img src="../pictures/HoldingUpCrocsInDifferentColors.jpg" alt="">
             <h1>Stort Utbud!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ad aut reiciendis? 
-                Id dolor officiis nihil. Facere voluptates veritatis eius.
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, accusamus explicabo
+            cumque omnis nostrum nimbus distinctio sit quaerat aliquam vel?
             </p>
             <a href="#">OAIHWFo</a>
         </div>
         <div class="showcase">
             <img src="../pictures/CharmsInPile.jpg" alt="">
             <h1>Alla Olika Ascscoarer</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, similique libero magni fugit
-                 cumque officia dolores minus reprehenderit sed. Suscipit, consequuntur laborum. Ipsa vero
-                  blanditiis eos illo nobis aliquid dicta!
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, accusamus explicabo
+            cumque omnis nostrum nimbus distinctio sit quaerat aliquam vel?
             </p>
             <a href="#">OFojjk</a>
         </div>

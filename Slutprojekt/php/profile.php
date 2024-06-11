@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="myProducts">
-        <h1>Mina produkter:</h1>
+        <h1>Min kundvagn:</h1>
         <div class="product">
             <h2>Toffla</h2>
             <img src="../pictures\KnasigaTofflorGulVItOrange.png" alt="">

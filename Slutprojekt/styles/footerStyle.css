@@ -31,11 +31,11 @@ footer div
     align-items: center;
     text-align: center;
     width: 80%;
-    border-bottom: 2px solid #ffb6c1;
     margin-bottom: 2vh;
 }
 footer div div.links
 {
+    border-bottom: 2px solid #ffb6c1;
     display: flex;
     justify-content: center;
 }
@@ -52,8 +52,24 @@ footer div.mediaLinks a
 }
 @media (min-width: 768px)
 {
-    footer div.links
+    footer
     {
         flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    footer div div.links
+    {
+        border-bottom: none;
+    }
+    footer div
+    {
+        width: 30%;
+    }
+    footer div.mediaLinks .links
+    {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }

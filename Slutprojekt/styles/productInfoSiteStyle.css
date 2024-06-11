@@ -3,17 +3,35 @@ body
     margin: 0;
     overflow-x: hidden;
     background-image: url("../pictures/blobsBakgrundVioletPink1x2.svg");
-    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #8a2be2;
+}
+.mainContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productContainer
+{
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 8vh;
+    height: fit-content;
+    padding: 30px;
+    background-color: #8a2be2;
+    border-radius: 10px;
+    border: #ffb6c1 2px solid;
 }
 .productimageContainer
 {
     width: 100%;
-    margin-top: 100px;
+    height: 30vh;
 }
 .productimageContainer img
 {
     width: 100%;
+    border-radius: 5px;
 }
 .smallImageContainer
 {
@@ -21,14 +39,16 @@ body
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
-    background-color: #892be297;
     padding-bottom: 10px;
     padding-top: 10px;
+    width: 100%;
 }
 .smallImageContainer img
 {
     margin-right: 20px;
+    height: 100%;
     width: 40vw;
+    border-radius: 5px;
 }
 .smallImageContainer img:last-child
 {
@@ -39,7 +59,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #892be275;
+    background-color: #8a2be2;
     color: #f0ffff;
 }
 .titleContainer
@@ -55,8 +75,9 @@ body
 }
 .titleContainer p
 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-decoration: underline;
+    font-weight: bold;
     
 }
 .button
@@ -66,10 +87,12 @@ body
     padding: 10px;
     background-color: #8a2be2;
     color: #f0ffff;
-    border: 2px #ffb6c1 solid;
+    border: 2px #f0ffff solid;
     border-radius: 10px;
     font-size: 1.7rem;
     margin-bottom: 5vh;
+    box-shadow: 0px 10px 10px -2px rgba(0,0,0,0.56);
+  -webkit-box-shadow: 0px 10px 10px -2px rgba(0,0,0,0.56);
 }
 .button:hover
 {
@@ -79,6 +102,7 @@ body
 .textContainer 
 {
     text-align: center;
+    width: 70%;
 }
 .bigImage.hidden
 {
@@ -92,11 +116,8 @@ body
 {
     cursor: pointer;
 }
-.productimageContainer
-{
-    width: 100%;
-    height: 30vh;
-}
+
+    
 .productimageContainer img.bigImage
 {
     height: 100%;
@@ -105,4 +126,23 @@ body
 .specifications
 {
     margin-bottom: 7vh;
+}
+
+@media (min-width: 768px)
+{
+    .mainContainer
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .productContainer
+    {
+        width: 40%;
+    }
+    .productInfoContainer
+    {
+        width: 40%;
+        margin-top: 100px;
+    }
 }

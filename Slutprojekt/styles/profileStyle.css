@@ -35,6 +35,7 @@ a.button:hover
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    margin-bottom: 10vh;
 }
 .profileContainer .profileInfoContainer p
 {
@@ -44,12 +45,18 @@ a.button:hover
 {
     width: 30%;
     height: 100%;
+    border-radius: 1005678132638176238768736182px;
+}
+.profileInfoContainer
+{
+    height: fit-content;
 }
 .logoutContainer
 {
     display: flex;
     justify-content: space-around;
     width: 75%;
+    margin-bottom: 2vh;
 }
 .myProducts
 {
@@ -66,7 +73,7 @@ a.button:hover
 }
 .product
 {
-    margin-top: 7vh;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,8 +89,25 @@ a.button:hover
 .product p
 {
     margin-bottom: 4vh;
+    text-align: center;
 }
 .product img
 {
     width: 100%;
+}
+@media (min-width: 768px)
+{
+    .profileInfoContainer
+    {
+        font-size: 2rem;
+    }
+    .product
+    {
+        width: 30%;
+    }
+    a.button
+    {
+        font-size: 1.75rem;
+    }
+
 }

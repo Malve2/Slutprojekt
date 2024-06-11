@@ -34,8 +34,8 @@
             <a href="productInfoSite.php">Klicka här!</a>
         </div>
         <div class="product">
-            <img src="../pictures/foppatofflor-crocs-classic-clog-navy.png" alt="">
-            <h1>Toffla (blå)</h1>
+            <img src="../pictures/crocks-cars-racer-boost.png" alt="">
+            <h1>Toffla (bil)</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, quo quae non iusto neque hic
                  eos at aut qui quas Optio.
             </p>

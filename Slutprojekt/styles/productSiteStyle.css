@@ -61,3 +61,29 @@ body
     background-color: #9448f4;
     transform: scale(1.1);
 }
+@media (min-width: 768px)
+{
+    .productContainer
+    {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .productContainer .product
+    {
+        width: 40%;
+    }
+}
+@media (min-width: 1024px)
+{
+    .productContainer
+    {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .productContainer .product
+    {
+        width: 20%;
+    }
+}
